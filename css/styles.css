@@ -1,0 +1,178 @@
+
+#title {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#features {
+  padding: 7% 7%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.elementDiv {
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+/* NavBar */
+
+.navbar {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  margin: auto 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.padN {
+    color: #EF8172;
+    margin-bottom: 1.5625rem;
+}
+
+.padN:hover{
+  color: #FF4C68;
+}
+
+.photo {
+  transform: rotate(25deg);
+  margin-top: 1rem;
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* ------------------Testimonials Section--------------------- */
+
+#testimonials {
+  background-color: #EF8172;
+  text-align: center;
+
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+/* ------------------Press Section--------------------- */
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ------------------Princing Section-------------------- */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-columns {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .photo {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* --------------------Cta Section------------------------ */
+
+#cta {
+  background-color: #FF4C68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.text-cta {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.edited-btn {
+  margin: 60px 20px 40px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 7% 15% 7%;
+  text-align: center;
+}
+
+.img-space {
+  margin: 0 10px 30px;
+}
